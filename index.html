@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .block34 {
+          position: relative;
+          width: 500px;
+          height: 500px;
+          border: 1px solid;
+        }
+
+        .box {
+          position: absolute;
+          width: 50px;
+          height: 50px;
+          background-color: red;
+        }
+    </style>
+
+
+</head>
+<body>
+<label for="inn">Введите ИНН:</label>
+<input type="text" id="inn" name="inn" placeholder="ИНН">
+<button onclick="checkInn()">Проверить</button>
+<p id="result"></p>
+
+    <p id="counter">0</p>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+
+<div class="block34">
+  <div class="box"></div>
+</div>
+
+</body>
+<script src="main.js"></script>
+</html>
